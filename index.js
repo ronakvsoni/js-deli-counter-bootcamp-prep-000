@@ -12,12 +12,17 @@ console.log(b)
 console.log(c)
 
 
+
 function nowServing(katzDeliLine) {
   if (katzDeliLine[0] !== undefined) {return `Currently serving ${katzDeliLine.splice(0,1)}.`;
-  } else { return "There is nobody waiting to be served!";}
+  } else { 
+    return"There is nobody waiting to be served!";}
 }
 var d = nowServing(katzDeliLine)
 console.log(d)
+
+
+
 
 function currentLine(katzDeliLine) {
   var array = [];
